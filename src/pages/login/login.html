@@ -1,0 +1,20 @@
+
+<ion-content class="background">
+  <ion-card>
+    <ion-card-header>
+      <strong>Parqueaderos UAO</strong>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list no-line>
+        <ion-item>
+        <ion-input type="text" [(ngModel)] = "usuario" placeholder="Usuario"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="password" [(ngModel)]="clave" placeholder="Contraseña"></ion-input>
+        </ion-item>
+      </ion-list><br>
+      <button ion-button (click) = "ingresar(usuario,clave)">INICIAR SESIÓN</button> <br><br><br>
+      <button ion-button (click) = "login()" color="secondary">INICIAR COMO INVITADO!</button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

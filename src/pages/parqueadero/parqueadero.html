@@ -1,0 +1,140 @@
+
+<ion-header>
+
+  <ion-navbar color = "primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Parqueadero</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-title>Selecciona el parqueadero que desees</ion-title>
+  <ion-grid>
+    <ion-row>
+      <ion-col col6>
+        <ion-card class="free">
+          <ion-card-header>
+            <strong>Disponible</strong>
+          </ion-card-header>
+          <ion-card-content>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col col6>
+        <ion-card class="busy">
+          <ion-card-header>
+            <strong>Ocupado</strong>
+          </ion-card-header>
+          <ion-card-content>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card class="free">
+          <ion-card-header>
+            Park 1
+          </ion-card-header>
+          <ion-card-content>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="busy">
+          <ion-card-header>
+            Park 2
+          </ion-card-header>
+          <ion-card-content>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card class="busy">
+          <ion-card-header>
+            Park 3
+          </ion-card-header>
+          <ion-card-content>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="busy">
+          <ion-card-header>
+            Park 4
+          </ion-card-header>
+          <ion-card-content>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="free">
+          <ion-card-header>
+            Park 5
+          </ion-card-header>
+          <ion-card-content>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card class="free">
+          <ion-card-header>
+            Park 6
+          </ion-card-header>
+          <ion-card-content>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="busy">
+          <ion-card-header>
+            Park 7
+          </ion-card-header>
+          <ion-card-content>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="busy">
+          <ion-card-header>
+            Park 8
+          </ion-card-header>
+          <ion-card-content>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card class="busy">
+          <ion-card-header>
+            Park 9
+          </ion-card-header>
+          <ion-card-content>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <button ion-button (click) = "maps()"class="btn">
+    <ion-icon item-left name = "car"></ion-icon>
+    Parquear
+  </button>
+</ion-content>

@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar color = "primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Mapas</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-header>
+  <ion-navbar color= "primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title >Parqueaderos UAO</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content class="card-background-page">
+  <ion-title>Selecciona la zona de parqueo que desees</ion-title>
+<ion-card (click) = "parkDisponible()"> 
+    <img src="parking1.jpg"/>
+    <div class="card-title">Zona 1</div>
+  </ion-card>
+  <ion-card>
+    <img src="parking2.jpg"/>
+    <div class="card-title">Zona 2</div>
+  </ion-card>
+  <ion-card>
+    <img src="parking3.jpg"/>
+    <div class="card-title">Zona 3</div>
+  </ion-card>
+  <button ion-button (click) = "reservar()">Ver disponibilidad</button>
+</ion-content>

@@ -1,0 +1,18 @@
+page-parqueadero {
+    ion-card.busy{
+        box-shadow: none;
+        background: rgba(47, 232, 133, 0.5);
+        border-radius: 5px;
+    }
+
+    ion-card.free{
+        box-shadow: none;
+        background: rgba(31, 179, 255, 0.5);
+        border-radius: 5px;
+        
+    }
+
+    button.btn{
+        align-items: center;
+    }
+}

@@ -1,0 +1,23 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Reserva</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+  
+    <img src="logoZe.png">
+    <div>Disponibles</div>
+     <div *ngIf="arreglo && arreglo.length > 0" class="lefth">{{arreglo[0].No}}</div>
+  </ion-card>
+
+   <button ion-button (click) = "Dato()" color="primary" class="button">Hacer reserva</button>
+</ion-content>
